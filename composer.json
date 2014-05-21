@@ -1,0 +1,26 @@
+{
+    "name": "rhapsody-project/require-js-bundle",
+    "type": "symfony-bundle",
+    "description": "RequireJS bundle for Symfony 2",
+    "keywords": ["amd", "javascript", "requirejs"],
+    "homepage": "https://github.com/rhapsody-project/require-js-bundle",
+    "version": "2.1.11",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Quinn"
+        },
+        {
+            "name": "Rhapsody Project",
+            "homepage": "https://github.com/rhapsody-project/require-js-bundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Rhapsody\\RequireJsBundle": "" }
+    },
+    "target-dir": "Rhapsody/RequireJsBundle",
+    "minimum-stability": "dev"
+}
